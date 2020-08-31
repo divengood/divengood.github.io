@@ -4,8 +4,8 @@
         window._67LMG2s3VMX71cmw = {
             unique: false,
             ttl: 86400,
-            R_PATH: 'http://radioapostolusa.com/pJhktJ',
-            P_PATH: 'http://radioapostolusa.com/79f10ac/postback',
+            R_PATH: 'https://radioapostolusa.com/pJhktJ',
+            P_PATH: 'https://radioapostolusa.com/79f10ac/postback',
         };
     }
     const _tGvKbh8JvJvBhmFw = localStorage.getItem('config');
